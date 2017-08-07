@@ -1,0 +1,104 @@
+/**
+ * Plugin Category Posts Tabber
+ */
+
+.cpt-widget {
+	overflow: hidden;
+}
+
+#cpt-widget {
+	width: 100%;
+	float: left;
+	border-bottom: solid 1px rgb(221, 221, 221);
+}
+
+#cpt-tab {
+	  border-top: solid 1px rgb(221, 221, 221);
+	  border-bottom: solid 1px rgb(221, 221, 221);
+	  float: left;
+	  width: 100%;
+}
+
+#cpt-tab li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+	border: none;
+}
+
+#cpt-tab li a {
+	padding: 9px 0;
+	display: block;
+}
+
+#cpt-tab li .cpt-current-item {
+	border-bottom: solid 2px gray;
+	font-weight: bold;
+	width: 100%;
+}
+
+#cpt-content-wrapper {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+#cpt-content-wrapper .cpt-current-content {
+	display: block !important;
+}
+
+#cpt-content-wrapper .cpt-tab-content {
+	display: none;
+	padding: 5% 3% 3%;
+	width: 94%;
+}
+
+#cpt-content-wrapper .cpt-tab-content li {
+	margin: 0 0 20px 0;
+	float: left;
+	list-style: none;
+	padding: 0;
+	border: none;
+	width: 100%;
+}
+
+.no-thumbnail .cpt-tab-content li {
+	list-style: disc !important;
+	margin: 0 0 10px 0 !important;
+}
+
+#cpt-content-wrapper .cpt-tab-content li:last-child {
+	margin-bottom: 15px;
+}
+
+#cpt-content-wrapper .cpt-thumbnail {
+	float: left;
+	width: 27%;
+	margin-right: 13px;
+}
+
+#cpt-content-wrapper .cpt-thumbnail img {
+	margin: 0;
+}
+
+#cpt-content-wrapper .cpt-title {
+	font-weight: bold;
+}
+
+#cpt-content-wrapper .cpt-post-meta {
+	font-size: 13px;
+	color: rgb(131, 131, 131);
+}
+
+#cpt-content-wrapper .cpt-separate {
+	color: rgb(207, 207, 207);
+}
+
+.cpt-no-post {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
